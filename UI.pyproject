@@ -1,0 +1,20 @@
+{
+    "files": [
+        "D_MNSV7_X16.py",
+        "ZLAC8015D.py",
+        "main.py",
+        "main.qml",
+        "track_position_map_offical.py",
+        "test_performance_pid_table.py",
+        "A_Star_Path_Finding/paths_file_generation.py",
+        "A_Star_Path_Finding/a_star_path_finding.py",
+        "toggle_relay.py",
+        "LH_04.py",
+        "ResourceIma.qrc",
+        "Image/logo-hust.png",
+        "rc_ResourceIma.py",
+        "test_relay_toggle.py",
+        "CCF_LAS5.py",
+        "MapHandlerForAGV.py"
+    ]
+}

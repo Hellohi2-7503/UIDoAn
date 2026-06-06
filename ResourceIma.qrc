@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/ilg">
+        <file>Image/logo-hust.png</file>
+    </qresource>
+</RCC>
