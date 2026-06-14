@@ -20,7 +20,7 @@ from track_position_map_offical import track_path_to_intersection
 
 
 # Keep the UI usable without opening serial ports.
-HARDWARE_ENABLED = False
+HARDWARE_ENABLED = True
 
 
 # Trạng thái nút bấm dành cho giao diện

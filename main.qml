@@ -845,8 +845,8 @@ Window {
                                 onClicked: stackView.push(mapEditPage)
                             }
                             Button {
-                                text: "Back"
-                                width: 86
+                                text: "X"
+                                width: 60
                                 height: 48
                                 font.pixelSize: 16
                                 onClicked: stackView.pop()
@@ -1007,7 +1007,7 @@ Window {
                                 onClicked: app.refreshMapHistory()
                             }
                             Button {
-                                text: "Back"
+                                text: "[X]"
                                 onClicked: stackView.pop()
                             }
                         }
@@ -1139,7 +1139,7 @@ Window {
                                 height: 48
                                 font.pixelSize: 22
                                 font.bold: true
-                                background: Rectangle { color: "#E5E7EB"; radius: 8 }
+                                background: Rectangle { color: "#0a0a0a"; radius: 8 }
                                 onClicked: mapFlickable.mapScale = Math.max(0.2, mapFlickable.mapScale - 0.2)
                             }
                             Text {
@@ -1157,7 +1157,7 @@ Window {
                                 height: 48
                                 font.pixelSize: 22
                                 font.bold: true
-                                background: Rectangle { color: "#E5E7EB"; radius: 8 }
+                                background: Rectangle { color: "#09090a"; radius: 8 }
                                 onClicked: mapFlickable.mapScale = Math.min(4.0, mapFlickable.mapScale + 0.2)
                             }
 
@@ -1167,11 +1167,11 @@ Window {
 
                             // Nút Back
                             Button {
-                                text: "Back"
+                                text: "X"
                                 width: 86
                                 height: 48
                                 font.pixelSize: 16
-                                background: Rectangle { color: "#E5E7EB"; radius: 10 }
+                                background: Rectangle { color: "#101112"; radius: 10 }
                                 onClicked: stackView.pop()
                             }
 
@@ -1212,7 +1212,7 @@ Window {
                                 height: 48
                                 font.pixelSize: 16
                                 font.bold: true
-                                background: Rectangle { color: "#F3F4F6"; radius: 10; border.color: "#D1D5DB" }
+                                background: Rectangle { color: "#0e0e0f"; radius: 10; border.color: "#D1D5DB" }
                                 onClicked: {
                                     let mapMatrix = []
                                     let starts = []

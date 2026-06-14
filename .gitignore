@@ -33,3 +33,6 @@ map_for_robot/history/
 # Operating system files
 .DS_Store
 Thumbs.db
+
+# Local archives
+*.rar
